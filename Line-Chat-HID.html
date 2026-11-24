@@ -54,5 +54,5 @@ a{color:#2F5BEA}a:hover{color:#1E3FB0}
 </nav></div>
 </script>
 <script src="runtime.js"></script>
-<script>mountDC(document.getElementById('app'),document.getElementById('tpl').textContent,"\nclass Component extends DCLogic {\nrenderVals() { const hid = this.props.hasHealthId ?? true; return { inviteHref: hid ? 'Line-Appts.html' : 'Line-Login.html',}; }\n}\n",{"hasHealthId": true});</script>
+<script>mountDC(document.getElementById('app'),document.getElementById('tpl').textContent,"\nclass Component extends DCLogic {\nrenderVals() { const hid = this.props.hasHealthId ?? true; return { inviteHref: hid ? 'Line-Login-HID.html' : 'Line-Login.html',}; }\n}\n",{"hasHealthId": true});</script>
 </body></html>
